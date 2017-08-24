@@ -20,8 +20,10 @@
 
         <targetJavaProject>${basedir}/src/main/java</targetJavaProject>
         <targetXmlProject>${basedir}/src/main/resources</targetXmlProject>
-        <targetMapperPackage>com.linlong.manager.mapper.dao</targetMapperPackage>
+
+        <targetXmlPackage>mybatis.manager.dao</targetXmlPackage>
         <targetEntityPackage>com.linlong.salary.entity</targetEntityPackage>
+        <targetDaoPackage>com.linlong.manager.mapper</targetDaoPackage>
     </properties>
 
     <dependencies>
